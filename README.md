@@ -42,8 +42,13 @@ You should also check `templates/base.html` if you want to change the main font.
 * [`Sass`](http://sass-lang.com/) - Making styling easier
 * [`Google Fonts`](https://fonts.google.com/) - Rokkitt and Open Sans
 
+## Special Thanks
+
+* [`JollyGoodThemes`](http://jollygoodthemes.com/) - Developing this theme under MIT!
+* [`Font Awesome`](http://fontawesome.io/) - Easy to use, awesome, suits most needs
+* [`Pelican`](https://blog.getpelican.com/) - The tool to power static blogs
+* [`Guido van Rossum`](https://www.python.org/) - Maker and ruler of Python
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
-
-## Special Thanks
