@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="post-index" class="container">
+    <header class="post-header post-header-index">
+        <h1 class="post-title">Hi, I’m {{ AUTHOR_FIRST_NAME }}.</h1>
+        <p class="deck">
+          I'm a total geek.
+          <br>Love programming, Nintendo, Coffee and figuring things out.
+          <br>I work at <a href="http://www.salesupply.nl/">Salesupply</a> and own <a href="http://epicsoftworks.nl/">EpicSoftworks</a>.
+        </p>
+    </header>
+    <ol class="post-list">
+    {% for article in articles_page.object_list %}
+    <li class="post-stub">
+      <a title="{{ article.title }}" href="{{ SITEURL }}/{{ article.url }}">
+        <h4 class="post-stub-title">{{ article.title }}</h4>
+        <small>
+            &nbsp; - &nbsp;
+            <time class="post-stub-date" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+        </small>
+      </a>
+    </li>
+    {% endfor %}
+    </ol>
+</div>
+{% endblock content %}

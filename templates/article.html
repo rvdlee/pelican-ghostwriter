@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <article>
+      <header class="post-header">
+        <h1 class="post-title">{{ article.title }}</h1>
+        <h2 class="post-date">
+           <time class="post-stub-date" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+        </h2>
+      </header>
+      <div class="post-content">
+          {{ article.content }}
+      </div>
+  </article>
+</div>
+{% endblock content %}

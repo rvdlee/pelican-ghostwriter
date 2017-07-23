@@ -1,0 +1,23 @@
+blockquote {
+    border: 1px solid #DDDBCC;
+    border-radius: 3px;
+    margin: 0 0 40px;
+    padding: 20px 30px;
+    font-style: normal;
+    color: #000000;
+
+    p {
+        font-style: normal;
+        color: #000000;
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+}
+body {
+    font-family: "Open Sans",Georgia,serif;
+    font-weight: 200;
+    color: #424242;
+    font-style: normal;
+    font-size: 24px !important;
+}
