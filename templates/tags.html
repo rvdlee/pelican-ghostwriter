@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <article>
+      <header class="post-header">
+        <h1 class="post-title">Tags</h1>
+        <h2 class="post-date">
+           Pick one and click it to see those articles!
+        </h2>
+    </header>
+      <div class="post-content">
+          {%- for tag, articles in tags|sort %}
+              <span><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }}), </span>
+          {% endfor %}
+      </div>
+  </article>
+</div>
+{% endblock %}
