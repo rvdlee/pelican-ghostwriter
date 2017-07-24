@@ -15,7 +15,11 @@
     padding-top: 30px;
 }
 .container {
-    max-width: 808px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 760px;
+    padding: 0 24px;
+    width: auto;
 }
 .post-content a:hover {
     padding: 0px;
