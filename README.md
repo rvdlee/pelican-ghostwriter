@@ -1,4 +1,4 @@
-A theme port for Pelican based on Ghostwriter by Rory Gibson. This theme has been created with passion. I took it upon me to port this wonderfull, amazing and sexy theme to Pelican.
+A theme port for Pelican based on Ghostwriter by Rory Gibson. This theme has been created with passion. I took it upon me to port this wonderfull, amazing and sexy theme to Pelican. You can find a screenshot at the bottom of this readme.
 
 ## Installation
 
@@ -52,3 +52,7 @@ You should also check `templates/base.html` if you want to change the main font.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
+
+## Screenshot
+
+![Screenshot of the Theme](screenshot.png)
